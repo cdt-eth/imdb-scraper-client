@@ -28,6 +28,7 @@ function showResults(results) {
     const a = document.createElement('a');
     a.textContent = movie.title;
     a.href = '/movie.html?imdbID=' + movie.imdbID;
+    a.target = '_blank';
     li.appendChild(a);
     resultsList.appendChild(li);
   });

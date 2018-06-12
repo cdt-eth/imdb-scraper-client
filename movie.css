@@ -1,0 +1,42 @@
+html,
+body {
+  background-image: url('./images/black-gradient-background-1.png');
+  height: 100%;
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center center;
+}
+
+.row {
+  margin: 20px 20px 0 20px;
+}
+
+.col-sm-2 {
+  text-align: right;
+}
+
+.col-sm-10 {
+  margin-bottom: 15px;
+}
+
+.text-center {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+dt {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+dd {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.btn-danger {
+  display: block;
+  margin: auto;
+}

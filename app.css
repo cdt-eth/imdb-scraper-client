@@ -1,0 +1,57 @@
+html,
+body {
+  background-image: url('./images/black-gradient-background-1.png');
+  height: 100%;
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 800px;
+  }
+}
+
+.imdbLogo {
+  display: block;
+  margin: auto;
+  width: 250px;
+}
+.searchTitle {
+  color: white;
+}
+
+.titleText {
+  padding: 0;
+  margin: auto;
+  display: block;
+}
+
+.instructions {
+  margin-bottom: 25px;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+  display: block;
+  margin: auto;
+  color: white;
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+  font-size: 22px;
+}
+
+.list-group {
+  padding-top: 20px;
+}
+
+.list-group li {
+  padding-bottom: 10px;
+  list-style-type: none;
+}
+
+.list-group li img {
+  padding-right: 10px;
+  width: 80px;
+}

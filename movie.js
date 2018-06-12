@@ -39,21 +39,22 @@ function showMovie(movie) {
 
   const descriptionHTML = properties.reduce((html, property) => {
     html += `
-        <dt class="col-sm-3">${property.title}</dt>
-        <dd class="col-sm-9">${movie[property.property]}</dd>`;
+        <dt class="col-sm-2">${property.title}</dt>
+        <dd class="col-sm-10">${movie[property.property]}</dd>`;
     return html;
   }, '');
 
   section.outerHTML = `
+  <h1 class="text-center">${movie.title}</h1>
       <section class="row">
-        <h1 class="text-center">${movie.title}</h1>
-        <div class="col-sm-12">
+        <div class="col-sm-4">
           <img src="${movie.poster}" class="img-fluid" />
         </div>
-        <div class="col-sm-12">
+        <div class="col-sm-8">
           <dl class="row">
             ${descriptionHTML}
           </dl>
+          <button onclick="window.location.href='/'" type="button" class="btn btn-danger"> Search Again </button>
         </div>
       </section>
     `;
